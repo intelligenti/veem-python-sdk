@@ -28,7 +28,7 @@ version = version_info('src', 'veem', '__init__.py')
 
 # launch setup
 setup(
-    name = 'odooveem',
+    name = 'oveem',
     version = version,
 
     # descriptions
