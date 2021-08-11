@@ -6,22 +6,22 @@ from multiprocessing import Process
 
 from mocks import MockServerProcess
 
-from oveem.client.veem import VeemClient
-from oveem.configuration import ConfigLoader
+from veem.client.veem import VeemClient
+from veem.configuration import ConfigLoader
 
-from oveem.client.contact import ContactClient
-from oveem.client.invoice import InvoiceClient
-from oveem.client.payment import PaymentClient
-from oveem.client.customer import CustomerClient
-from oveem.client.metadata import MetadataClient
-from oveem.client.attachment import AttachmentClient
-from oveem.client.exchange_rate import ExchangeRateClient
-from oveem.client.authentication import AuthenticationClient
+from veem.client.contact import ContactClient
+from veem.client.invoice import InvoiceClient
+from veem.client.payment import PaymentClient
+from veem.client.customer import CustomerClient
+from veem.client.metadata import MetadataClient
+from veem.client.attachment import AttachmentClient
+from veem.client.exchange_rate import ExchangeRateClient
+from veem.client.authentication import AuthenticationClient
 
-from oveem.client.requests.contact import ContactRequest
-from oveem.client.requests.invoice import InvoiceRequest
-from oveem.client.requests.payment import PaymentRequest
-from oveem.client.requests.exchange_rate import ExchangeRateRequest
+from veem.client.requests.contact import ContactRequest
+from veem.client.requests.invoice import InvoiceRequest
+from veem.client.requests.payment import PaymentRequest
+from veem.client.requests.exchange_rate import ExchangeRateRequest
 
 CONFIG = """
 client_id: VeemTest

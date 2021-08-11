@@ -1,8 +1,8 @@
 
-from oveem.models.base import Base
-from oveem.models.purpose_of_payment import PurposeOfPayment
+from veem.models.base import Base
+from veem.models.purpose_of_payment import PurposeOfPayment
 
-from oveem.utils import deseralize
+from veem.utils import deseralize
 
 class CountryInfo(Base):
     def __init__(self,

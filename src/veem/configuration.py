@@ -3,27 +3,27 @@ import yaml
 import logging
 import argparse
 
-from oveem.models.context import VeemContext
+from veem.models.context import VeemContext
 
-from oveem.utils import file_access_check, reverse_attrdict
+from veem.utils import file_access_check, reverse_attrdict
 
 logger = logging.getLogger(__name__)
 
 class ConfigLoader(object):
 
-    @property
-    def parser(self):
-        parser = argparse.ArgumentParser(description='Configuration Loader')
-        parser.add_argument('--yaml_file', type=str,
-                            help='Path of configuration yaml file')
-        parser.add_argument('--configs', type=str,
-                            help='YAML string content of secrets')
-        return parser
+    # @property
+    # def parser(self):
+    #     parser = argparse.ArgumentParser(description='Configuration Loader')
+    #     parser.add_argument('--yaml_file', type=str,
+    #                         help='Path of configuration yaml file')
+    #     parser.add_argument('--configs', type=str,
+    #                         help='YAML string content of secrets')
+    #     return parser
 
     def __init__(self, yaml_file=None, configs=None, **kwargs):
-        self.args = self.parser.parse_args()
-        self.configs = configs or self.args.configs
-        yaml_file = yaml_file or self.args.yaml_file
+        #self.args = self.parser.parse_args()
+        self.configs = configs
+        yaml_file = yaml_file
         if not self.configs and file_access_check(yaml_file):
             with open(yaml_file, 'r') as fp:
                 self.configs = fp.read()

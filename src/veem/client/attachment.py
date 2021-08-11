@@ -3,15 +3,15 @@ import os
 import shutil
 import tempfile
 
-from oveem.constants import FILE_DOWNLOAD_CHUNK_SIZE
-from oveem.client.responses.attachment import AttachmentResponse
+from veem.constants import FILE_DOWNLOAD_CHUNK_SIZE
+from veem.client.responses.attachment import AttachmentResponse
 
-from oveem.client.base import Base
-from oveem.utils.rest import VeemRestApi
-from oveem.utils import file_access_check, extract_file_content_type
+from veem.client.base import Base
+from veem.utils.rest import VeemRestApi
+from veem.utils import file_access_check, extract_file_content_type
 
-from oveem.models.attachment import Attachment
-from oveem.exceptions import VeemSdkException
+from veem.models.attachment import Attachment
+from veem.exceptions import VeemSdkException
 
 class AttachmentClient(Base):
 

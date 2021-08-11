@@ -1,8 +1,8 @@
-from oveem.client.responses.page import PageResponse
-from oveem.client.responses.payment import PaymentResponse
+from veem.client.responses.page import PageResponse
+from veem.client.responses.payment import PaymentResponse
 
-from oveem.client.base import Base
-from oveem.utils.rest import VeemRestApi
+from veem.client.base import Base
+from veem.utils.rest import VeemRestApi
 
 class PaymentClient(Base):
 

@@ -1,15 +1,15 @@
 import urllib.parse
 
-from oveem.constants import (
+from veem.constants import (
     Scope,
     CLIENT_CREDENTIALS_GRANT_TYPE,
     AUTHORIZATION_CODE_GRANT_TYPE,
     REFRESH_TOKEN_GRANT_TYPE
 )
-from oveem.client.responses.token import TokenResponse
+from veem.client.responses.token import TokenResponse
 
-from oveem.client.base import Base
-from oveem.utils.rest import VeemRestApi
+from veem.client.base import Base
+from veem.utils.rest import VeemRestApi
 
 class AuthenticationClient(Base):
 

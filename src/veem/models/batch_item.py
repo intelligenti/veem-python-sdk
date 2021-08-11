@@ -1,9 +1,9 @@
 
-from oveem.models.base import Base
+from veem.models.base import Base
 
-from oveem.utils import deseralize
-from oveem.exceptions import VeemSdkException
-from oveem.constants import BatchItemType, BatchStatus
+from veem.utils import deseralize
+from veem.exceptions import VeemSdkException
+from veem.constants import BatchItemType, BatchStatus
 
 class ErrorInfo(Base):
 

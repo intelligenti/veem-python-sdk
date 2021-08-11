@@ -1,13 +1,13 @@
-from oveem.configuration import ConfigLoader
+from veem.configuration import ConfigLoader
 
-from oveem.client.payment import PaymentClient
-from oveem.client.invoice import InvoiceClient
-from oveem.client.contact import ContactClient
-from oveem.client.metadata import MetadataClient
-from oveem.client.customer import CustomerClient
-from oveem.client.attachment import AttachmentClient
-from oveem.client.exchange_rate import ExchangeRateClient
-from oveem.client.authentication import AuthenticationClient
+from veem.client.payment import PaymentClient
+from veem.client.invoice import InvoiceClient
+from veem.client.contact import ContactClient
+from veem.client.metadata import MetadataClient
+from veem.client.customer import CustomerClient
+from veem.client.attachment import AttachmentClient
+from veem.client.exchange_rate import ExchangeRateClient
+from veem.client.authentication import AuthenticationClient
 
 class VeemClient(object):
     """

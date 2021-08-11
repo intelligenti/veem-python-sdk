@@ -1,9 +1,9 @@
 
-from oveem.models.base import Base
-from oveem.models.approver import Approver
+from veem.models.base import Base
+from veem.models.approver import Approver
 
-from oveem.utils import deseralize
-from oveem.constants import ApprovalStatus
+from veem.utils import deseralize
+from veem.constants import ApprovalStatus
 
 class PaymentApproval(Base):
     def __init__(self,

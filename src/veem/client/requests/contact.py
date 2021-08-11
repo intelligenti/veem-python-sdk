@@ -1,4 +1,4 @@
-from oveem.models.base import Base
+from veem.models.base import Base
 
 class ContactRequest(Base):
     def __init__(self,

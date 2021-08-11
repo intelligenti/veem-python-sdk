@@ -1,7 +1,7 @@
 
-from oveem.models.base import Base
+from veem.models.base import Base
 
-from oveem.constants import ApprovalStatus
+from veem.constants import ApprovalStatus
 
 class Approver(Base):
     def __init__(self,
