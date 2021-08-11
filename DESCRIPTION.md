@@ -74,8 +74,8 @@ In order to get the access tokens from the Developer Portal;
 In order to get the `access token` programmatically, get the client id, client secrets (Optional redirect url for Authorization flow).
 
 ```
-from veem.configuration import ConfigLoader
-from veem.client.authentication import AuthenticationClient
+from odooveem.configuration import ConfigLoader
+from odooveem.client.authentication import AuthenticationClient
 
 # loading SDK configuration from your yaml file
 config = ConfigLoader(yaml_file='/path/to/your/configuration.yaml')
@@ -89,8 +89,8 @@ The following example is to send invoice using `Invoice Client`
 
 ```
 
-from veem.client.veem import VeemClient
-from veem.client.requests.invoice import InvoiceRequest
+from odooveem.client.veem import VeemClient
+from odooveem.client.requests.invoice import InvoiceRequest
 
 # define a VeemClient Context Manager with yaml+file and auto login.
 with VeemClient(yaml_file='/path/to/your/configuration.yaml',

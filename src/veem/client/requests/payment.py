@@ -3,9 +3,9 @@ from .amount import AmountRequest
 from .account import AccountRequest
 from .attachment import AttachmentRequest
 
-from veem.models.base import Base
+from odooveem.models.base import Base
 
-from veem.utils import deseralize
+from odooveem.utils import deseralize
 
 class PaymentRequest(Base):
     def __init__(self,

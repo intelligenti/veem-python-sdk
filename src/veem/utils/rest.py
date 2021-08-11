@@ -6,8 +6,8 @@ from functools import partial
 from urllib.parse import urljoin
 from requests.auth import HTTPBasicAuth
 
-from veem import __API_VERSION__ as API_VERSION
-from veem.exceptions import VeemException
+from odooveem import __API_VERSION__ as API_VERSION
+from odooveem.exceptions import VeemException
 
 logger = logging.getLogger(__name__)
 

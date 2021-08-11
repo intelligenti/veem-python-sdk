@@ -1,5 +1,5 @@
-from veem.models.base import Base
-from veem.models.account import Account
+from odooveem.models.base import Base
+from odooveem.models.account import Account
 
 
 class AccountResponse(Base):

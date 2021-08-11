@@ -1,5 +1,5 @@
 
-from veem.models.base import Base
+from odooveem.models.base import Base
 
 class ContactListParameters(Base):
     def __init__(self,

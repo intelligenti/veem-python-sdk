@@ -1,8 +1,8 @@
 
-from veem.configuration import ConfigLoader
-from veem.client.payment import PaymentClient
-from veem.client.requests.payment import PaymentRequest
-from veem.client.authentication import AuthenticationClient
+from odooveem.configuration import ConfigLoader
+from odooveem.client.payment import PaymentClient
+from odooveem.client.requests.payment import PaymentRequest
+from odooveem.client.authentication import AuthenticationClient
 
 if __name__ == '__main__':
 

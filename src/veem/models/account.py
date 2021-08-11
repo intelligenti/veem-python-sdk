@@ -1,8 +1,8 @@
 
-from veem.models.base import Base
+from odooveem.models.base import Base
 
-from veem.utils import deseralize
-from veem.constants import AccountType
+from odooveem.utils import deseralize
+from odooveem.constants import AccountType
 
 class Account(Base):
     def __init__(self,

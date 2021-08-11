@@ -1,7 +1,7 @@
 
-from veem.models.base import Base
+from odooveem.models.base import Base
 
-from veem.constants import Scope
+from odooveem.constants import Scope
 
 class TokenResponse(Base):
     def __init__(self,

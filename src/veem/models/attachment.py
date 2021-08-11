@@ -1,7 +1,7 @@
 
-from veem.models.base import Base
+from odooveem.models.base import Base
 
-from veem.constants import AttachmentType
+from odooveem.constants import AttachmentType
 
 class Attachment(Base):
     def __init__(self,

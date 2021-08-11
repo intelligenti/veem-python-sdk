@@ -1,8 +1,8 @@
-from veem.client.responses.page import PageResponse
-from veem.client.responses.account import AccountResponse
+from odooveem.client.responses.page import PageResponse
+from odooveem.client.responses.account import AccountResponse
 
-from veem.client.base import Base
-from veem.utils.rest import VeemRestApi
+from odooveem.client.base import Base
+from odooveem.utils.rest import VeemRestApi
 
 class CustomerClient(Base):
 

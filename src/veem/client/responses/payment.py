@@ -6,10 +6,10 @@ from .exchange_rate import ExchangeRateResponse
 from .payment_approval import PaymentApprovalResponse
 from .push_payment_info import PushPaymentInfoResponse
 
-from veem.models.base import Base
-from veem.models.payment import Payment
+from odooveem.models.base import Base
+from odooveem.models.payment import Payment
 
-from veem.utils import deseralize
+from odooveem.utils import deseralize
 
 class PaymentResponse(Base):
     def __init__(self,

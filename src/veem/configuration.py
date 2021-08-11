@@ -3,9 +3,9 @@ import yaml
 import logging
 import argparse
 
-from veem.models.context import VeemContext
+from odooveem.models.context import VeemContext
 
-from veem.utils import file_access_check, reverse_attrdict
+from odooveem.utils import file_access_check, reverse_attrdict
 
 logger = logging.getLogger(__name__)
 

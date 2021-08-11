@@ -1,4 +1,4 @@
-from veem.utils.utilities import (
+from odooveem.utils.utilities import (
     file_access_check,
     reverse_attrdict,
     deseralize,

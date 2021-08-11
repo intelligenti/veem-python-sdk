@@ -1,11 +1,11 @@
 from collections.abc import Iterable
 
-from veem.client.responses.page import PageResponse
+from odooveem.client.responses.page import PageResponse
 
-from veem.client.base import Base
-from veem.utils.rest import VeemRestApi
-from veem.models.batch import Batch
-from veem.models.contact import Contact
+from odooveem.client.base import Base
+from odooveem.utils.rest import VeemRestApi
+from odooveem.models.batch import Batch
+from odooveem.models.contact import Contact
 
 class ContactClient(Base):
 

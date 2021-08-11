@@ -1,9 +1,9 @@
-from veem.client.responses.page import PageResponse
-from veem.client.responses.metadata import CountryInfoResponse
+from odooveem.client.responses.page import PageResponse
+from odooveem.client.responses.metadata import CountryInfoResponse
 
-from veem.client.base import Base
-from veem.utils.rest import VeemRestApi
-from veem import __API_VERSION__ as API_VERSION
+from odooveem.client.base import Base
+from odooveem.utils.rest import VeemRestApi
+from odooveem import __API_VERSION__ as API_VERSION
 
 class MetadataClient(Base):
 

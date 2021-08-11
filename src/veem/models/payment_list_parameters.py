@@ -1,13 +1,13 @@
-from veem.models.base import Base
+from odooveem.models.base import Base
 
-from veem.constants import (
+from odooveem.constants import (
     Direction,
     PaymentStatus,
     PaymentSortField,
     SortOrder
 )
 
-from veem.utils import deseralize
+from odooveem.utils import deseralize
 
 class PaymentListParameters(Base):
     def __init__(self,

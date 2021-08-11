@@ -1,6 +1,6 @@
 
-from veem.client.veem import VeemClient
-from veem.client.requests.exchange_rate import ExchangeRateRequest
+from odooveem.client.veem import VeemClient
+from odooveem.client.requests.exchange_rate import ExchangeRateRequest
 
 if __name__ == '__main__':
 

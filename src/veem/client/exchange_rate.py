@@ -1,7 +1,7 @@
-from veem.client.responses.exchange_rate import ExchangeRateResponse
+from odooveem.client.responses.exchange_rate import ExchangeRateResponse
 
-from veem.client.base import Base
-from veem.utils.rest import VeemRestApi
+from odooveem.client.base import Base
+from odooveem.utils.rest import VeemRestApi
 
 class ExchangeRateClient(Base):
 

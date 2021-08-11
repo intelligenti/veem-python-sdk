@@ -1,13 +1,13 @@
-from veem.models.base import Base
-from veem.models.amount import Amount
-from veem.models.account import Account
-from veem.models.attachment import Attachment
-from veem.models.exchange_rate import ExchangeRate
-from veem.models.payment_approval import PaymentApproval
-from veem.models.push_payment_info import PushPaymentInfo
+from odooveem.models.base import Base
+from odooveem.models.amount import Amount
+from odooveem.models.account import Account
+from odooveem.models.attachment import Attachment
+from odooveem.models.exchange_rate import ExchangeRate
+from odooveem.models.payment_approval import PaymentApproval
+from odooveem.models.push_payment_info import PushPaymentInfo
 
-from veem.utils import deseralize
-from veem.constants import InvoiceStatus
+from odooveem.utils import deseralize
+from odooveem.constants import InvoiceStatus
 
 class Invoice(Base):
     def __init__(self,

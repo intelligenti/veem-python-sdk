@@ -1,5 +1,5 @@
 from .address import AddressRequest
-from veem.models.base import Base
+from odooveem.models.base import Base
 
 class BankAccountRequest(Base):
     def __init__(self,

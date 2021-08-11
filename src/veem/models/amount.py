@@ -1,5 +1,5 @@
 
-from veem.models.base import Base
+from odooveem.models.base import Base
 
 class Amount(Base):
     def __init__(self, number=None, currency=None, **kwargs):

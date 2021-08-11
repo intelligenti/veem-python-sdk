@@ -1,6 +1,6 @@
 
-from veem.client.veem import VeemClient
-from veem.client.requests.invoice import InvoiceRequest
+from odooveem.client.veem import VeemClient
+from odooveem.client.requests.invoice import InvoiceRequest
 
 if __name__ == '__main__':
 

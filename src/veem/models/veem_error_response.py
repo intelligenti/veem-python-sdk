@@ -1,5 +1,5 @@
 
-from veem.models.base import Base
+from odooveem.models.base import Base
 
 class VeemErrorResponse(Base):
     def __init__(self,

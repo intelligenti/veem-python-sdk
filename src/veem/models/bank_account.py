@@ -1,9 +1,9 @@
 
-from veem.models.base import Base
-from veem.models.address import Address
+from odooveem.models.base import Base
+from odooveem.models.address import Address
 
-from veem.utils import deseralize
-from veem.constants import ApprovalStatus
+from odooveem.utils import deseralize
+from odooveem.constants import ApprovalStatus
 
 class BankAccount(Base):
     def __init__(self,

@@ -1,5 +1,5 @@
-from veem.models.base import Base
-from veem.models.exchange_rate import ExchangeRate
+from odooveem.models.base import Base
+from odooveem.models.exchange_rate import ExchangeRate
 
 class ExchangeRateResponse(Base):
     def __init__(self,

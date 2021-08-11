@@ -1,4 +1,4 @@
-from veem.models.base import Base
+from odooveem.models.base import Base
 
 class AddressRequest(Base):
     def __init__(self,

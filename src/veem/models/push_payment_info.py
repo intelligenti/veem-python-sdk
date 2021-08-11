@@ -1,7 +1,7 @@
-from veem.models.base import Base
-from veem.models.amount import Amount
+from odooveem.models.base import Base
+from odooveem.models.amount import Amount
 
-from veem.utils import deseralize
+from odooveem.utils import deseralize
 
 class PushPaymentInfo(Base):
     def __init__(self,
