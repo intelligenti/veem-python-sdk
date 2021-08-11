@@ -1,4 +1,4 @@
-from odooveem.utils.utilities import (
+from oveem.utils.utilities import (
     file_access_check,
     reverse_attrdict,
     deseralize,

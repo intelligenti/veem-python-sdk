@@ -1,8 +1,8 @@
 from .amount import AmountResponse
 
-from odooveem.models.base import Base
+from oveem.models.base import Base
 
-from odooveem.utils import deseralize
+from oveem.utils import deseralize
 
 class PushPaymentInfoResponse(Base):
     def __init__(self,

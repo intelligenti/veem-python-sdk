@@ -1,13 +1,13 @@
-from odooveem.configuration import ConfigLoader
+from oveem.configuration import ConfigLoader
 
-from odooveem.client.payment import PaymentClient
-from odooveem.client.invoice import InvoiceClient
-from odooveem.client.contact import ContactClient
-from odooveem.client.metadata import MetadataClient
-from odooveem.client.customer import CustomerClient
-from odooveem.client.attachment import AttachmentClient
-from odooveem.client.exchange_rate import ExchangeRateClient
-from odooveem.client.authentication import AuthenticationClient
+from oveem.client.payment import PaymentClient
+from oveem.client.invoice import InvoiceClient
+from oveem.client.contact import ContactClient
+from oveem.client.metadata import MetadataClient
+from oveem.client.customer import CustomerClient
+from oveem.client.attachment import AttachmentClient
+from oveem.client.exchange_rate import ExchangeRateClient
+from oveem.client.authentication import AuthenticationClient
 
 class VeemClient(object):
     """

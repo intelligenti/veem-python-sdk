@@ -1,6 +1,6 @@
 
-from odooveem.client.veem import VeemClient
-from odooveem.client.requests.payment import PaymentRequest
+from oveem.client.veem import VeemClient
+from oveem.client.requests.payment import PaymentRequest
 
 if __name__ == '__main__':
 

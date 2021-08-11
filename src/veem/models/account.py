@@ -1,8 +1,8 @@
 
-from odooveem.models.base import Base
+from oveem.models.base import Base
 
-from odooveem.utils import deseralize
-from odooveem.constants import AccountType
+from oveem.utils import deseralize
+from oveem.constants import AccountType
 
 class Account(Base):
     def __init__(self,

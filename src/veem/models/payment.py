@@ -1,13 +1,13 @@
-from odooveem.models.base import Base
-from odooveem.models.amount import Amount
-from odooveem.models.account import Account
-from odooveem.models.attachment import Attachment
-from odooveem.models.exchange_rate import ExchangeRate
-from odooveem.models.payment_approval import PaymentApproval
-from odooveem.models.push_payment_info import PushPaymentInfo
+from oveem.models.base import Base
+from oveem.models.amount import Amount
+from oveem.models.account import Account
+from oveem.models.attachment import Attachment
+from oveem.models.exchange_rate import ExchangeRate
+from oveem.models.payment_approval import PaymentApproval
+from oveem.models.push_payment_info import PushPaymentInfo
 
-from odooveem.utils import deseralize
-from odooveem.constants import PaymentStatus
+from oveem.utils import deseralize
+from oveem.constants import PaymentStatus
 
 class Payment(Base):
     def __init__(self,

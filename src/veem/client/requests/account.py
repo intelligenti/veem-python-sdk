@@ -1,4 +1,4 @@
-from odooveem.models.base import Base
+from oveem.models.base import Base
 
 class AccountRequest(Base):
     def __init__(self,

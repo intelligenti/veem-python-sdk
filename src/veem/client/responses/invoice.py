@@ -4,10 +4,10 @@ from .account import AccountResponse
 from .attachment import AttachmentResponse
 from .exchange_rate import ExchangeRateResponse
 
-from odooveem.models.base import Base
-from odooveem.models.invoice import Invoice
+from oveem.models.base import Base
+from oveem.models.invoice import Invoice
 
-from odooveem.utils import deseralize
+from oveem.utils import deseralize
 
 class InvoiceResponse(Base):
     def __init__(self,

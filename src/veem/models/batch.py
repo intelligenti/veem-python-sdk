@@ -1,9 +1,9 @@
 
-from odooveem.models.base import Base
-from odooveem.models.batch_item import BatchItem
+from oveem.models.base import Base
+from oveem.models.batch_item import BatchItem
 
-from odooveem.utils import deseralize
-from odooveem.constants import BatchStatus
+from oveem.utils import deseralize
+from oveem.constants import BatchStatus
 
 class Batch(Base):
     def __init__(self,

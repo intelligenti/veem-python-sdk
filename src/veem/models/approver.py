@@ -1,7 +1,7 @@
 
-from odooveem.models.base import Base
+from oveem.models.base import Base
 
-from odooveem.constants import ApprovalStatus
+from oveem.constants import ApprovalStatus
 
 class Approver(Base):
     def __init__(self,

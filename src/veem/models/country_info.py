@@ -1,8 +1,8 @@
 
-from odooveem.models.base import Base
-from odooveem.models.purpose_of_payment import PurposeOfPayment
+from oveem.models.base import Base
+from oveem.models.purpose_of_payment import PurposeOfPayment
 
-from odooveem.utils import deseralize
+from oveem.utils import deseralize
 
 class CountryInfo(Base):
     def __init__(self,

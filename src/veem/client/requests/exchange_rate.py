@@ -1,4 +1,4 @@
-from odooveem.models.base import Base
+from oveem.models.base import Base
 
 class ExchangeRateRequest(Base):
     def __init__(self,

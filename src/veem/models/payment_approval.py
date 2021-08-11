@@ -1,9 +1,9 @@
 
-from odooveem.models.base import Base
-from odooveem.models.approver import Approver
+from oveem.models.base import Base
+from oveem.models.approver import Approver
 
-from odooveem.utils import deseralize
-from odooveem.constants import ApprovalStatus
+from oveem.utils import deseralize
+from oveem.constants import ApprovalStatus
 
 class PaymentApproval(Base):
     def __init__(self,

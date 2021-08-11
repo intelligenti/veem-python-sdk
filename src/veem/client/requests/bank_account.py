@@ -1,5 +1,5 @@
 from .address import AddressRequest
-from odooveem.models.base import Base
+from oveem.models.base import Base
 
 class BankAccountRequest(Base):
     def __init__(self,

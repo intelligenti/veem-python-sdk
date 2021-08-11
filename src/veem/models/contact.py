@@ -1,10 +1,10 @@
 
-from odooveem.models.base import Base
-from odooveem.models.address import Address
-from odooveem.models.bank_account import BankAccount
+from oveem.models.base import Base
+from oveem.models.address import Address
+from oveem.models.bank_account import BankAccount
 
-from odooveem.utils import deseralize
-from odooveem.constants import AccountType
+from oveem.utils import deseralize
+from oveem.constants import AccountType
 
 class Contact(Base):
     def __init__(self,
