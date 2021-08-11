@@ -28,7 +28,7 @@ version = version_info('src', 'veem', '__init__.py')
 
 # launch setup
 setup(
-    name = 'veem',
+    name = 'odooveem',
     version = version,
 
     # descriptions
@@ -37,8 +37,8 @@ setup(
     long_description = read('DESCRIPTION.md'),
     long_description_content_type='text/markdown',
     author = 'Veem',
-    author_email = 'devsupport@veem.com',
-    url = 'https://github.com/veeminc/veem-python-sdk',
+    author_email = 'hello@intelligenti.io',
+    url = 'https://github.com/intelligenti/veem-python-sdk',
 
     classifiers = [
         'Development Status :: 5 - Production/Stable',
@@ -58,7 +58,7 @@ setup(
     ],
 
     # project keywords
-    keywords = 'veem python sdk b2b payment',
+    keywords = 'veem python intelligenti sdk b2b payment',
 
     # uses namespace package
     namespace_packages = [],
