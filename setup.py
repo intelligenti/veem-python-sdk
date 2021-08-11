@@ -36,7 +36,7 @@ setup(
                    'Veem Global Payments APIs (https://www.veem.com).'),
     long_description = read('DESCRIPTION.md'),
     long_description_content_type='text/markdown',
-    author = 'Veem',
+    author = 'Intelligenti',
     author_email = 'hello@intelligenti.io',
     url = 'https://github.com/intelligenti/veem-python-sdk',
 
