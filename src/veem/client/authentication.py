@@ -59,6 +59,6 @@ class AuthenticationClient(Base):
             request_auth=(self.context.clientId, self.context.clientSecret),
             request_params=dict(grant_type=AUTHORIZATION_CODE_GRANT_TYPE,
                            code=self.context.authorizationCode,
-                           redirect_uri=urllib.parse.quote(context.redirectUrl),
+                           redirect_uri=urllib.parse.quote(self.context.redirectUrl),
                            scope=scope))
         return response
