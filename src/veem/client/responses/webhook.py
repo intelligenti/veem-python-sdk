@@ -3,13 +3,13 @@ from veem.models.exchange_rate import ExchangeRate
 
 class WebhookResponse(Base):
     def __init__(self,
+                 id=None,
                  event=None,
                  callbackURL=None,
+                 status=None,
                  **kwargs):
 
+        self.id = id
         self.event = event
         self.callbackURL = callbackURL
-
-    # @property
-    # def convert(self):
-    #     return ExchangeRate(hashId=self.id, **self.json)
+        self.status = status

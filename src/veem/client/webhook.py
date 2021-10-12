@@ -11,7 +11,9 @@ class WebhookClient(Base):
         self.context = config.context
         self.client = VeemRestApi(self.config.url,
                                   self.context.session,
-                                  dict(create=('post', '/')))
+                                  dict(create=('post', ''),
+                                       delete=('delete', '/{webhookId}'),
+                                       get=('get','')))
 
     def create(self, request):
         """
@@ -26,3 +28,36 @@ class WebhookClient(Base):
                                         api_route='webhooks',
                                         **request.json)
                             )
+    
+    def delete(self, webhookId):
+        """
+            delete a specific webhook by id
+
+            @param request: webhook id
+            @return Webhook that you just requested
+            @throws VeemException If the provided paymentId is invalid, or
+                                  if cancelling fails.
+        """
+        return self._response_handler(WebhookResponse,
+                                 self.client.delete(
+                                        uri_params=dict(webhookId=webhookId),
+                                        access_token=self.context.token,
+                                        api_route='webhooks')
+                                    )
+
+
+    def get(self, webhookId):
+        """
+            Get a specific webhook by id
+
+            @param request: webhook id
+            @return Payment that you just requested
+            @throws VeemException If the provided paymentId is invalid, or
+                                  if retriving fails.
+        """
+        return self._response_handler(WebhookResponse,
+                                 self.client.get(
+                                        uri_params=dict(webhookId=webhookId),
+                                        access_token=self.context.token,
+                                        api_route='webhooks')
+                                    )
