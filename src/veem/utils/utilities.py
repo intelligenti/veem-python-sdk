@@ -46,14 +46,14 @@ def deseralize(cls, input):
 
 def extract_file_content_type(filename, buffer=None):
     """ helper method to extract file content type"""
-    try:
-        if MIMETYPES_IMPORTED:
-            mimetype, encoding = mimetypes.guess_type(filename)
-            return mimetype
-        if mimetype is None and MAGIC_IMPORTED:
-            if buffer:
-                return magic.from_buffer(buffer, mime=True)
-            return magic.from_file(filename, mime=True)
-    except Exception:
-        pass
+    # try:
+    #     if MIMETYPES_IMPORTED:
+    #         mimetype, encoding = mimetypes.guess_type(filename)
+    #         return mimetype
+    #     if mimetype is None and MAGIC_IMPORTED:
+    #         if buffer:
+    #             return magic.from_buffer(buffer, mime=True)
+    #         return magic.from_file(filename, mime=True)
+    # except Exception:
+    #     pass
     return "multipart/form-data"
